@@ -1,0 +1,17 @@
+.gallery {
+    line-height: 0;
+    column-count: 1;
+    column-gap: 0px;
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .gallery {
+        column-count: 2;
+    }
+}
+@media (min-width: 992px) {
+    .gallery {
+        column-count: 3;
+    }
+}

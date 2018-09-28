@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Notable');
+.btn {
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Notable', sans-serif;
+    user-select: none;
+}
+.btn:hover {
+    transform: translateY(3px);
+}
+.btn:active {
+    transform: translateY(5px);
+    
+}
+
+
+.btn.success {
+    background: rgb(169, 243, 100);
+    box-shadow: 0 5px #1abd1a;
+}
+.btn.success:hover {
+    box-shadow: 0 2px #1abd1a;
+}
+
+
+
+.btn.warning {
+    background: rgb(207, 137, 6);
+    box-shadow: 0 5px rgb(180, 118, 3);
+}
+.btn.warning:hover {
+    box-shadow: 0 2px rgb(180, 118, 3);
+}
+
+
+.btn.info {
+    background: rgb(7, 129, 243);
+    box-shadow: 0 5px rgb(5, 110, 207);
+}
+.btn.info:hover {
+    box-shadow: 0 2px rgb(5, 110, 207);
+}

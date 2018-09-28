@@ -1,0 +1,23 @@
+.login-form {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.login-form__warning {
+    margin-bottom: 10px;
+    color: red;
+    font-style: italic;
+}
+.login-form__title {
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.login-form input {
+    width: 90%;
+    margin-bottom: 10px;
+}
+.login-form input:last-child {
+    margin-bottom: 20px;
+}

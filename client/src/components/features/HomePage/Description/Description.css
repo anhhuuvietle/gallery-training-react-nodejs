@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Notable');
+.description {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    background: #ddffff;
+    border-left: 10px solid #2196F3;
+    padding: 10px 20px;
+    font-family: 'Notable', sans-serif;
+    font-size: 12px;
+}
+.description h1 {
+    color: #30736a; 
+}
+.description h2 {
+    color: #bd6d6d;
+}
+.description p {
+    color: blueviolet;
+}
+@media (min-width: 768px) {
+    .description {
+        font-size: 15px;
+    }
+}

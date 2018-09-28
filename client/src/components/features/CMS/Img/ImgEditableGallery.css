@@ -1,0 +1,40 @@
+.editable-gallery__img {
+    height: 400px;
+    width: 400px;
+    margin: 10px 20px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    background: white;
+    padding-bottom: 10px;
+    position: relative;
+    z-index: 10;
+}
+.editable-gallery__img img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    text-align: center;
+}
+.editable-gallery__img-action {
+    margin-bottom: 10px;
+    text-align: center;
+    display: none;
+}
+.editable-gallery__img:hover .editable-gallery__img-action {
+    display: block;
+}
+.editable-gallery__img-action button {
+    margin: 0 10px;
+}
+.editable-gallery__img .background {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    background-size: cover;
+    background-position: center;
+}

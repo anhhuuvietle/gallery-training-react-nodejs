@@ -1,0 +1,29 @@
+.admin__action {
+    margin-top: 10px;
+    text-align: center;
+}
+.admin__action button {
+    margin: 10px;
+}
+
+.adding-image-modal {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    max-width: 100%;
+    align-items: center;
+}
+.adding-image-modal img {
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    border: 1px solid;
+    text-align: center;
+}
+.adding-image-modal input {
+    width: 95%;
+}
+.adding-image-modal button {
+    margin-top: 20px;
+}
